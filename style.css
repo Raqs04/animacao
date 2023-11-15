@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #FFA07A;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.titulo {
+    text-align: center;
+}
+
+.div-img {
+    display: flex;
+    justify-content: center;
+
+}
+
+img {
+    width: 200px;
+    height: 200px;
+
+    animation: pulse 1s infinite linear;
+}
+
+@keyframes pulse {
+
+    0% {
+        transform: scale(0.9);
+    }
+
+    100% {
+        transform: scale(1.0);
+    }
+    
+}
